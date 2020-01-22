@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>GFT - Nicolas Plaisant</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="~/css/base.css">
+    <link rel="stylesheet" href="~/css/vendor.css">
+    <link rel="stylesheet" href="~/css/main.css">
+
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <header class="s-header">
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Fechar</span></a>
+
+            <div class="header-nav__content">
+                <h3>Nicolas Plaisant</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  asp-controller="Home" asp-action="Index" title="home">Home</a></li>
+                    <li><a  asp-controller="Home" asp-action="Sobre" title="about">Sobre</a></li>
+                    <li><a  asp-controller="Home" asp-action="Projetos" title="about">Projetos</a></li>
+                    <li><a  asp-controller="Home" asp-action="Skills" title="services">Skills</a></li>
+                    <li><a  asp-controller="Home" asp-action="Contato" title="contact">Contato</a></li>
+                </ul>
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://facebook.com/nicolas.plaisant" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div> 
+        </nav> 
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> 
+
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+    
+        <div class="shadow-overlay"></div>
+        
+        <div class="home-content">
+            <div class="row home-content__main">
+                <h1>
+                Olá a todos, me chamo<br>
+                Nicolas Plaisant
+                </h1>
+
+                <p>
+                Estudante de Tecnologia e atual estagiário<br>
+                da GFT Group, em Curitiba - Brasil.
+                </p>
+            </div> 
+
+        </div> 
+
+        <ul class="home-sidelinks">
+            <li><a class="smoothscroll" href="#about">Sobre<span>Quem sou eu</span></a></li>
+            <li><a class="smoothscroll" href="#services">Atividades<span>O que faço</span></a></li>
+            <li><a  class="smoothscroll" href="#contact">Contato<span>Entre em contato</span></a></li>
+        </ul> 
+
+        <ul class="home-social">
+            <li class="home-social-title">Me siga nas redes sociais</li>
+            <li><a href="https://facebook.com/nicolas.plaisant" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span class="home-social-text">Facebook</span>
+            </a></li>
+            <li><a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <span class="home-social-text">Twitter</span>
+            </a></li>
+            <li><a href="https://br.linkedin.com/in/nicolas-plaisant-a132a3148" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span class="home-social-text">LinkedIn</span>
+            </a></li>
+        </ul> 
+
+        <a href="#about" class="home-scroll smoothscroll">
+            <span class="home-scroll__text">Rolar para baixo</span>
+            <span class="home-scroll__icon"></span>
+        </a> 
+
+    </section> 
+
+    <section id='about' class="s-about">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Quem sou eu</h3>
+                <h1 class="display-1">Estudante de tecnologia que ama se aprofundar em assuntos relacionados a tecnologias Front-End.</h1>
+            </div>
+        </div> 
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                Apesar de estar iniciando na carreira de tecnologia, possuo grande interesse pelo desenvolvimento Front-End, focando portanto meus estudos em seus relacionados. Neste sentido, passo a disponibilizar algumas das áreas que optei pelo aprofundamento. 
+                </p>
+            </div>
+        </div> 
+
+        <div class="row">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="process__vline-left"></div>
+                <div class="process__vline-right"></div>
+
+                <div class="col-block process__col" data-item="1" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Front-End</h4>
+
+                        <p>
+                        Dado ao interesse direcionado ao desenvolvimento Front-end, busco atualmente melhorar minhas noções
+                        de HTML, CSS e JavaScript, de maneira a conciliar com aquilo que venho adquirindo das tecnologias
+                        React e Angular.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="2" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Back-End</h4>
+
+                        <p>
+                        Na GFT Group tive a chance de conhecer melhor o funcionamento do Back-End e perceber como essas informações
+                        me auxiliariam nas conexões das duas searas de desenvolvimento. Aqui tive a oportunidade de aprender 
+                        tecnologias Java e C#, utilizando os frameworks Springboot e Asp.net, respectivamente. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="3" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Idiomas</h4>
+
+                        <p>
+                        Outro interesse particular é conhecer o mundo e as particularidades culturais de cada região. Dessa forma,
+                        sempre busquei aprender diferentes idiomas, de maneira a concretizar este objetivo.
+                        <br>
+                        <br> 
+                        Inglês: Avançado/Fluente<br>
+                        Espanhol: Intermediário<br>
+                        Alemão: Intermediário 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="4" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Comunicação</h4>
+
+                        <p>
+                        Difícil não destacar atualmente a questão de Soft Skills, que muitas vezes superam em importância as Hard Skills.
+                        Busco sempre adotar postura conciliadora, de maneira a ouvir múltiplos posicionamentos e encontrar melhor resolução
+                        para a situação discutida. Acredito que manter um bom nível de comunicação junto ao time de sua atuação é de extrema
+                        importância para boa fluência dos projetos designados. 
+                        </p>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div> 
+
+    </section> 
+
+
+    <section id='services' class="s-services light-gray">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">O que faço</h3>
+                <h1 class="display-1">Atualmente desempenho minhas funções na GFT Group, local onde tenho oportunidade para expandir minhas áreas de atuação.</h1>
+            </div>
+        </div> 
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                Como participante do programa "Starter" de estágios GFT, são disponibilizadas várias formas e tecnologias para aprendizado. O objetivo do programa
+                é percorrer e simular toda a vivência de um projeto, utilizando metodologia ágil. Uma vez que possuirmos essa prévia experiência, passaremos então
+                pelo direcionamento a projetos reais.
+                </p>
+            </div>
+        </div> 
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block service-item " data-aos="fade-up">
+                <div class="service-icon service-icon--brand-identity">
+                    <i class="icon-tv"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">POO</h3>
+                    <p>Nossa caminhada se iniciou no básico do universo da programação: Orientação a objetos. Durante a esta etapa,
+                        tivemos todo suporte necessário para compreender o funcionamento e seus benefícios, para assim continuar progredindo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--illustration">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Back-End</h3>
+                    <p>O programa "Starter" é focado em ensinar o funcionamento do Back-End nas tecnlogias Java e C#. Utilizando desde as
+                        linguagens puras, como frameworks de muita importância no mercado, como Springboot e Asp.net.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--web-design">
+                    <i class="icon-earth"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h4">Front-End</h3>
+                    <p>Para finalizar, receberemos o treinamento nas melhores tecnologias de desenvolvimento, como o framework Angular. Além disso,
+                        podemos prosseguir nossos estudos para direcionamento mobile, utilizando React, React Native e Ionic.  
+                    </p>
+                </div>
+            </div>
+        </div> 
+
+    </section> 
+
+    <section id="contact" class="s-contact">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--light">Entre em contato</h3>
+                <h1 class="display-1 display-1--light">Fale comigo e vamos trabalhar em algo incrível juntos. Estou a disposição para auxiliar em quaisquer dúvidas.</h1>
+            </div>
+        </div> 
+
+        <div class="row">
+
+            <div class="col-full contact-main" data-aos="fade-up">
+                <p>
+                <a href="mailto:#0" class="contact-email">nicolasbcp@gmail.com</a>
+                <span class="contact-number">+44 (077) 628 626 13  /  +55 (41) 9 9964-1885</span>
+                </p>
+            </div> 
+
+        </div> 
+
+        <div class="row">
+
+            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Endereço</h3>
+
+                <p class="contact-address">
+                    Rua Chichorro Júnior, n.º 364, APT. 401<br>
+                    Curitiba, Paraná<br>
+                    80035-040 BR
+                </p>
+            </div> 
+
+            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Me siga</h3>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="https://facebook.com/nicolas.plaisant" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul> 
+            </div> 
+
+        </div> 
+
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+</span> 
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
+
+    </section>
+
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> 
+
+    <div id="preloader">
+        <div id="loader">            
+        </div>
+    </div>
+
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/main.js"></script>
+@RenderBody()
+</body>
+
+</html>
